@@ -1,18 +1,67 @@
 .container {
     margin: 0 auto;
-    padding: 40px 100px 0px 100px;
+    padding: 40px 20% 0px 20%;
+    background: #f2fbfc;
 }
 
 .mem-img {
-    width: 500px;
-    height: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 400px;
+    height: 400px;
+}
+
+.img-1 {
+    background: url(./img/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-2 {
+    background: url(./img/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img-3 {
+    background: url(./img/3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img-4 {
+    background: url(./img/4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img-5 {
+    background: url(./img/5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 img {
     width: 100%;
 }
 
+h1 {
+    line-height: 80px;
+    border-bottom: 1px solid rgba(97, 97, 97, 0.541);
+}
+
 .mem-wrapper {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+.mem-descr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mem-text {
+    font-size: 25px;
+    font-weight: bold;
 }
