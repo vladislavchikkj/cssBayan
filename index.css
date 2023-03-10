@@ -1,0 +1,18 @@
+.container {
+    margin: 0 auto;
+    padding: 40px 100px 0px 100px;
+}
+
+.mem-img {
+    width: 500px;
+    height: 500px;
+}
+
+img {
+    width: 100%;
+}
+
+.mem-wrapper {
+    display: flex;
+    justify-content: center;
+}
