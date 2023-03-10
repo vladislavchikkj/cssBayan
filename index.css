@@ -1,14 +1,31 @@
-.container {
-    margin: 0 auto;
-    padding: 40px 20% 0px 20%;
+* {
     background: #f2fbfc;
 }
+.container {
+    margin: 0 auto;
+    padding: 10px 20% 0px 20%;
+}
+.wrapper {
+    padding: 50px;
+}
 
-.mem-img {
+.mem-img-a {
+    display: block;
+    opacity: 1;
     margin: 0 auto;
     padding-top: 30px;
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
+    transition: all 0.5s;
+}
+.mem-img {
+    display: block;
+    opacity: 0;
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 0;
+    height: 0;
+    transition: all 0.5s;
 }
 
 .img-1 {
@@ -53,9 +70,27 @@ h1 {
 
 .mem-wrapper {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    border-bottom: 1px solid rgba(97, 97, 97, 0.541);
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
+.mem-wrapper:hover .mem-img {
+    opacity: 1;
+    width: 250px;
+    height: 250px;
+}
+.mem-wrapper:hover .mem-close {
+    opacity: 1;
+    transform: rotate(45deg);
+}
+.wrapper:hover .mem-close {
+    opacity: 1;
+}
+.wrapper:hover .blue {
+    color: black;
+}
+
 .mem-descr {
     display: flex;
     justify-content: space-between;
@@ -64,4 +99,24 @@ h1 {
 .mem-text {
     font-size: 25px;
     font-weight: bold;
+}
+.mem-close {
+    opacity: 0;
+    font-size: 35px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.blue {
+    color: rgb(0, 153, 255);
+    transition: all 0.5s;
+}
+
+.active {
+    opacity: 1;
+    width: 400px;
+    height: 400px;
+}
+.active-btn {
+    transform: rotate(45deg);
 }
