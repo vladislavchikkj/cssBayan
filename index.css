@@ -63,13 +63,13 @@
     background-size: contain;
 }
 .img-3 {
-    background: url(./img/3.jpg);
+    background: url(./img/6.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .img-4 {
-    background: url(./img/4.jpg);
+    background: url(./img/7.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -178,4 +178,10 @@ button:focus .mem-text {
 }
 button:hover {
     color: rgb(40, 98, 146);
+}
+
+@media (max-width: 800px) {
+    .container {
+        padding: 0 5vh 0 5vh;
+    }
 }
