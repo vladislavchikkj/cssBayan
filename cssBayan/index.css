@@ -182,14 +182,13 @@ button:hover {
     padding: 0 20vh 0 20vh;
   }
 }
-
-@media (max-width: 800px) {
+@media (max-width: 350px) {
   .container {
-    padding: 0 10vh 0 10vh;
+    padding: 0 5vh 0 5vh;
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 800px) {
   .container {
     padding: 0 5vh 0 5vh;
   }
