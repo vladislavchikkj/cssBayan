@@ -20,7 +20,7 @@
   margin: 0 auto;
 }
 .wrapper {
-  padding: 50px;
+  padding: 5vh;
   background: #e0e0e09c;
   border-radius: 1vh;
 }
@@ -89,7 +89,7 @@ a {
 
 h1 {
   font-size: 3vh;
-  border-bottom: 1px solid rgba(97, 97, 97, 0.541);
+  border-bottom: 0.1vh solid rgba(97, 97, 97, 0.541);
   width: 100%;
   padding-bottom: 2vh;
 }
